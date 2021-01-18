@@ -17,7 +17,7 @@ body {
 @media only screen and (max-width: 768px) {
 .prjct-wrt-right {
     font-size: 1.5em !important;
-    top: 9% !important;
+    top: 0% !important;
 }
 
 .logo-home {
@@ -63,7 +63,7 @@ body {
 
 .prjct-wrt-left {
     font-size: 1.5em !important;
-    top: 9% !important;
+    top: 0% !important;
 }
 
 .h1, h1 {
