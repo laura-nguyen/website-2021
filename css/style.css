@@ -3,7 +3,7 @@
    src: 
        url('fonts/AppleGaramond-BoldItalic.ttf') format('truetype'),
        url('fonts/applegaramond-bolditalic-webfont.woff') format('woff'),
-       url('fonts/Fonts/applegaramond-bolditalic-webfont.woff2') format('woff2');
+       url('fonts/applegaramond-bolditalic-webfont.woff2') format('woff2');
 }
 
 /*** BODY ***/
