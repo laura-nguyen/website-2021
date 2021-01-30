@@ -19,7 +19,7 @@ body {
 /*** MEDIA ***/
 @media only screen and (max-width: 768px) {
 .prjct-wrt-right {
-    font-size: 3em !important;
+    font-size: 2em !important;
     top: 0% !important;
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .prjct-wrt-left {
-    font-size: 3em !important;
+    font-size: 2em !important;
     top: 0% !important;
 }
 
