@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'ITC Blair';
+    src: url('ITCBlair-BoldItalic.woff2') format('woff2'),
+        url('ITCBlair-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Blair';
+    src: url('ITCBlair-LightItalic.woff2') format('woff2'),
+        url('ITCBlair-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Blair';
+    src: url('ITCBlair-Bold.woff2') format('woff2'),
+        url('ITCBlair-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Blair';
+    src: url('ITCBlair-Medium.woff2') format('woff2'),
+        url('ITCBlair-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ITC Blair';
+    src: url('ITCBlair-MediumItalic.woff2') format('woff2'),
+        url('ITCBlair-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'ITC Blair';
+    src: url('ITCBlair-Light.woff2') format('woff2'),
+        url('ITCBlair-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
