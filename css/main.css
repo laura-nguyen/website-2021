@@ -1214,8 +1214,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-    font-family: "newyork", sans-serif;
+    font-family: "maragsa", serif;
     font-size: 7.8rem;
+    letter-spacing: 0.05em; 
     line-height: 1.25;
     color: #000000;
     margin-top: 0;
@@ -1226,8 +1227,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2 {
-    font-family: "newyork", sans-serif;
+    font-family: "maragsa", serif;
     font-size: 5.2rem;
+    letter-spacing: 0.05em; 
     line-height: 1.255;
     color: #000000;
     margin-top: 0;
@@ -1805,9 +1807,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "newyork", sans-serif;
+    font-family: "maragsa", serif;
     font-size: 6.3rem;
     line-height: 1.333;
+    letter-spacing: .05em; 
     margin-top: 0;
     color: #FFFFFF;
 }

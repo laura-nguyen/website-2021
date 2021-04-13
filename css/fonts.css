@@ -39,8 +39,8 @@
  * newyork
 ================================================================================ */
 @font-face {
-    font-family: "newyork";
-    src: url("../fonts/newyork/NewYork.woff2") format("woff2"), url("../fonts/newyork/NewYork.woff") format("woff");
+    font-family: "maragsa";
+    src: url("../fonts/maraga/Maragsa-Display.woff2") format("woff2"), url("../fonts/maragsa/Maragsa-Display.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
