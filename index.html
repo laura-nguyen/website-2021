@@ -664,34 +664,20 @@ Let’s widen your horizon (and audience).
             
             <div class="contact-primary">
 
-                <form name="contactForm" id="contactForm" method="POST" action="https://formspree.io/f/xgervjrd">
-                    <fieldset>
-    
+                <form action="https://formspree.io/f/xgervjrd" method="POST">
                     <div class="form-field">
-                        <input name="name" type="text" id="full-name" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                        <input name="name" type="text" placeholder="Your Name" aria-required="true" required="" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="_replyto" type="email" id="email-address" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                        <input type="email" name="_replyto" placeholder="Your Email" aria-required="true" required="" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="_subject" type="text" id="email-subject" placeholder="Subject" value="" class="full-width">
+                        <input name="_subject" type="text"  placeholder="Subject" = class="full-width">
                     </div>
                     <div class="form-field">
-                        <textarea name="message" id="message" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        <textarea name="message" placeholder="Your Message" aria-required="true" required="" class="full-width"></textarea>
                     </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary" type="submit" value="Submit">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    </fieldset>
+                    <button type="submit" class="full-width btn--primary">Submit</button>
                 </form>
 
                 <!-- contact-warning -->
