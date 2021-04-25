@@ -74,7 +74,7 @@ html, body {
 }
 
 body {
-    background: #111111;
+    background: #000000;
     font-family: "Avenir", serif;
     font-size: 1.7rem;
     font-style: normal;
@@ -624,7 +624,7 @@ select {
     outline: none;
     color: #333333;
     font-family: "Avenir", sans-serif;
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     line-height: 3rem;
     max-width: 100%;
     background: transparent;
@@ -833,9 +833,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #000000;
-    border-color: #000000;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #000000;
 }
 
 .btn.btn--primary:hover,
@@ -2953,7 +2953,7 @@ html.no-csstransitions .home-content__main {
     width: 100%;
     height: 100%;
     opacity: .8;
-    background-color: #151515;
+    background-color: #000000;
 }
 
 .s-contact .form-field {
@@ -2967,7 +2967,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .form-field label {
-    font-family: "montserrat-light", sans-serif;
+    font-family: "Avenir", sans-serif;
     font-size: 1rem;
     line-height: 2.4rem;
     position: absolute;
@@ -3009,7 +3009,7 @@ html.no-csstransitions .home-content__main {
     color: rgba(255, 255, 255, 0.4);
     padding-top: 6rem;
     padding-bottom: 6rem;
-    font-family: "montserrat-light", sans-serif;
+    font-family: "Avenir", sans-serif;
     font-size: 1.5rem;
     line-height: 2;
     position: relative;
@@ -3092,7 +3092,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-primary {
-    width: 65%;
+    width: 100%;
 }
 
 .contact-primary #contactForm {
@@ -3346,7 +3346,7 @@ footer {
 footer h4 {
     color: #FFFFFF;
     font-family: "Longhaul", sans-serif;
-    font-size: 3.6rem;
+    font-size: 5.2rem;
     line-height: 1.313;
     margin-top: 0;
     margin-bottom: 3.6rem;
