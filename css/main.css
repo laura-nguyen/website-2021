@@ -1214,7 +1214,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-    font-family: "Longhaul", serif;
+    font-family: "Ogg", serif;
     font-size: 7.8rem;
     letter-spacing: 0.05em; 
     line-height: 1.25;
@@ -1227,7 +1227,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2 {
-    font-family: "Longhaul", serif;
+    font-family: "Ogg", serif;
     font-size: 5.2rem;
     letter-spacing: 0.05em; 
     line-height: 1.255;
@@ -1807,7 +1807,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "Longhaul", serif;
+    font-family: "Ogg", serif;
     font-size: 6.3rem;
     line-height: 1.333;
     letter-spacing: .05em; 
@@ -2716,7 +2716,7 @@ html.no-csstransitions .home-content__main {
         padding-bottom: 12rem;
     }
     .s-works .intro-wrap {
-        padding: 30rem 0 25.2rem;
+        padding: 10rem 0 25.2rem;
     }
     .works-content {
         margin-top: -25.2rem;
@@ -3345,7 +3345,7 @@ footer {
 
 footer h4 {
     color: #FFFFFF;
-    font-family: "Longhaul", sans-serif;
+    font-family: "Ogg", sans-serif;
     font-size: 5.2rem;
     line-height: 1.313;
     margin-top: 0;
