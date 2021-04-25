@@ -3345,11 +3345,12 @@ footer {
 
 footer h4 {
     color: #FFFFFF;
-    font-family: "ITC Blair", sans-serif;
+    font-family: "Longhaul", sans-serif;
     font-size: 3.6rem;
     line-height: 1.313;
     margin-top: 0;
     margin-bottom: 3.6rem;
+    text-align: center;
 }
 
 footer a {
