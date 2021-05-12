@@ -49,6 +49,15 @@
 }
 
 @font-face {
+    font-family: 'Quincy CF';
+    src: url('../fonts/quincy-cf/QuincyCF-Black.woff2') format('woff2'),
+        url('../fonts/quincy-cf/QuincyCF-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Longhaul';
     src: url('../fonts/longhaul/Longhaul.woff2') format('woff2'),
         url('../fonts/longhaul/Longhaul.woff') format('woff');
