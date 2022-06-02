@@ -833,8 +833,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #FFFFFF;
-    border-color: #FFFFFF;
+    background: #F6C930;
+    border-color: #F6C930;
     color: #000000;
 }
 
@@ -848,8 +848,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #F6C930;
-    border-color: #F6C930;
+    background: #ffffff;
+    border-color: #ffffff;
 }
 
 
@@ -872,7 +872,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke, button.btn--stroke {
-    background: transparent !important;
+    background: #F6C930;
     border: 0.2rem solid #F6C930;
     color: #F6C930;
 }
@@ -881,6 +881,7 @@ input[type="button"].btn--primary:focus {
     border: 0.2rem solid #000000;
     color: #000000;
 }
+
 
 .btn--pill, button.btn--pill {
     padding-left: 3rem !important;
@@ -1448,8 +1449,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     margin: 0;
     padding: 0;
-    left: 40px;
-    top: 90%;
+    left: 38px;
+    top: 50px;
+    width: 180px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -1462,7 +1464,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1497,13 +1498,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav a, .header-nav a:visited {
-    color: rgba(255, 255, 255, 0.5);
+    color: #F6C930;
 }
 
 .header-nav a:hover,
 .header-nav a:focus,
 .header-nav a:active {
-    color: white;
+    color: #FFFFFF;
 }
 
 .header-nav h3 {
@@ -1519,6 +1520,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav p {
     margin-bottom: 2.7rem;
+    color: #FFFFFF;
 }
 
 .header-nav__content {
@@ -1724,14 +1726,24 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .header-logo {
         left: 30px;
     }
+    
     .header-menu-toggle {
         right: 25px;
     }
 }
 
+
+
 @media only screen and (max-width: 400px) {
     .header-menu-text {
         display: none;
+    
+    }
+    
+    .header-logo {
+        left: 30px;
+        width: 120px;
+        top: 47px;
     }
 }
 
@@ -1825,8 +1837,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__buttons .btn {
     width: auto;
     font-family: "ITC Blair", sans-serif;
-    border-color: #FFFFFF;
-    color: #FFFFFF;
+    border-color: #F6C930;
+    color: #000000;
     margin: 1.5rem 1.5rem 0 0;
     letter-spacing: .25rem;
     -webkit-transition: all 0.5s ease-in-out;
@@ -1841,6 +1853,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__buttons .btn:focus {
     background: #FFFFFF !important;
     color: #000000;
+    border-color: #FFFFFF;
 }
 
 .home-content__scroll {
@@ -2446,7 +2459,6 @@ html.no-csstransitions .home-content__main {
     .services-list {
         margin-top: 4.2rem;
         max-width: 500px;
-        text-align: center;
     }
     .services-list .service-item:nth-child(n) {
         padding-right: 15px;
@@ -2454,12 +2466,14 @@ html.no-csstransitions .home-content__main {
     }
     .services-list h3 {
         font-size: 3rem;
+        text-align: center;
     }
     .services-list .service-text {
         margin-left: 0;
     }
     .services-list .service-icon {
         font-size: 4.5rem;
+        text-align: center;
         float: none;
         margin-top: 0;
     }
@@ -2475,6 +2489,7 @@ html.no-csstransitions .home-content__main {
     }
     .services-list h3 {
         font-size: 2.5rem;
+        text-align: center;
     }
 }
 
@@ -2485,6 +2500,7 @@ html.no-csstransitions .home-content__main {
     }
     .services-list h3 {
         font-size: 2.5rem;
+        text-align: center;
     }
 }
 
@@ -3367,7 +3383,7 @@ footer .row {
  * ## footer main
  * --------------------------------------------------------------- */
 .footer-main {
-    text-align: center;
+    text-align: left;
 }
 
 .footer-main .left {
