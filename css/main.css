@@ -882,6 +882,21 @@ input[type="button"].btn--primary:focus {
     color: #000000;
 }
 
+.btn--stroke-light, button.btn--stroke-light {
+    background: transparent !important;
+     border: 0.2rem solid #F6C930;
+    color: #F6C930 !important;  
+
+}
+
+.btn--stroke-light:hover, button.btn--stroke-light:hover {
+    background: #F6C930;
+    border: 0.2rem solid #F6C930;
+    color: #000000;
+    
+}
+
+
 
 .btn--pill, button.btn--pill {
     padding-left: 3rem !important;
